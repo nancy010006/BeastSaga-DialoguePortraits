@@ -1,0 +1,13 @@
+# 編譯產物
+src/bin/
+src/obj/
+
+# 打包產物(放 GitHub Releases,不進 git)
+release/
+*.zip
+
+# Python
+tools/__pycache__/
+
+# 本機暫存
+zip_staging/
